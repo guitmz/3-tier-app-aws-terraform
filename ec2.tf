@@ -1,7 +1,7 @@
 # creating new keypair in EC2
 resource "aws_key_pair" "auth" {
   key_name   = "${ var.key_name }"
-  public_key = "${ file(var.public_key_path) w}"
+  public_key = "${ file(var.public_key_path) }"
 }
 
 # creating EC2 instance with given userdata to initialize the applications we need in this example
