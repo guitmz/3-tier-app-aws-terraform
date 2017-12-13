@@ -1,5 +1,5 @@
 # 3-tier-app-aws-terraform
-Simple 3-tier app example delpoyed to AWS using Terraform.
+Simple 3-tier app example deployed to AWS using Terraform.
 
 # Requirements
 - Terraform >= `0.11.1`
